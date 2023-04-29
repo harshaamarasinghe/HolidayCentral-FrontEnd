@@ -66,10 +66,10 @@ const TravelAgentBookFlight = () => {
 
       <div class="container my-5"></div>
 
-      <div class="display-flex">
+      <div>
         {/* Departure and arrival */}
-        <div class="container my-5 row">
-          <div class="col-3 justify-content-start">
+        <div class="container my-5">
+          <div class="row justify-content-start">
             <div class="col-1">
               <img src={Departure} alt="" width={60} />
             </div>
@@ -108,7 +108,7 @@ const TravelAgentBookFlight = () => {
               </div>
             </div>
           </div>
-          <div class="col-3 justify-content-start mt-3">
+          <div class="row justify-content-start mt-3">
             <div class="col-1">
               <img src={Landing} alt="" width={60} />
             </div>
