@@ -7,9 +7,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import TravelAgentMenu from "./Components/TravelAgents/TravelAgentsMenu";
 import TravelAgentBookFlight from "./Components/TravelAgents/TravelAgentBookFlight/TravelAgentBookFlight";
 import TravelAgentSelectFlight from "./Components/TravelAgents/TravelAgentSelectFlight/TravelAgentSelectFlight";
+import Login from "./Components/Login/Login";
 
 function App() {
-  return <TravelAgentSelectFlight />;
+  return <Login />;
 }
 
 export default App;
