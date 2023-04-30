@@ -1,6 +1,9 @@
 import React from "react";
 
-const TravelAgentSelectFlight = () => {
+import AddUser from "./../../Assets/add-user.png";
+import Lock from "./../../Assets/padlock.png";
+
+const Admin = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -25,13 +28,8 @@ const TravelAgentSelectFlight = () => {
           >
             <ul class="navbar-nav fw-normal">
               <li class="nav-item mx-2">
-                <a class="nav-link text-secondary" aria-current="page" href="#">
-                  <i class="bi bi-cart"></i> Cart
-                </a>
-              </li>
-              <li class="nav-item mx-2">
                 <a class="nav-link text-secondary" href="#">
-                  <i class="bi bi-calendar4-week"></i> My bookings
+                  <i class="bi bi-people"></i> Travel Agents
                 </a>
               </li>
               <li class="nav-item mx-2">
@@ -48,8 +46,36 @@ const TravelAgentSelectFlight = () => {
           </div>
         </div>
       </nav>
+
+      <div class="container">
+        <div class="row  my-5 align-items-center justify-content-center ">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0 bg-secondary bg-opacity-10">
+              <div class="card-body text-center py-4">
+                <img src={AddUser} alt="" width={40} />
+                <h4 class="card-title mt-3">Add Travel Agents</h4>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3">
+                  Add Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0 bg-secondary bg-opacity-10">
+              <div class="card-body text-center py-4">
+                <img src={Lock} alt="" width={40} />
+                <h4 class="card-title mt-3">Reset Password</h4>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3">
+                  Reset Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
 
-export default TravelAgentSelectFlight;
+export default Admin;

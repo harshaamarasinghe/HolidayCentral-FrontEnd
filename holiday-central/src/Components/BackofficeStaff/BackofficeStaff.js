@@ -1,10 +1,10 @@
 import React from "react";
 
-import Plane from "./../../Assets/plane.png";
 import Hotel from "./../../Assets/hotel.png";
 import Sunset from "./../../Assets/sunset.png";
+import Plane from "./../../Assets/plane.png";
 
-const TravelAgentMenu = () => {
+const BackofficeStaff = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -29,16 +29,6 @@ const TravelAgentMenu = () => {
           >
             <ul class="navbar-nav fw-normal">
               <li class="nav-item mx-2">
-                <a class="nav-link text-secondary" aria-current="page" href="#">
-                  <i class="bi bi-cart"></i> Cart
-                </a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-secondary" href="#">
-                  <i class="bi bi-calendar4-week"></i> My bookings
-                </a>
-              </li>
-              <li class="nav-item mx-2">
                 <a class="nav-link text-secondary" href="#">
                   <i class="bi bi-gear"></i> Profile
                 </a>
@@ -59,9 +49,9 @@ const TravelAgentMenu = () => {
             <div class="card border-0 bg-secondary bg-opacity-10">
               <div class="card-body text-center py-4">
                 <img src={Plane} alt="" width={40} />
-                <h4 class="card-title mt-3">Flight Ticket Reservation</h4>
+                <h4 class="card-title mt-3">Flights</h4>
                 <a href="#" class="btn btn-outline-dark btn-lg mt-3">
-                  Book Now
+                  Enter
                 </a>
               </div>
             </div>
@@ -71,9 +61,9 @@ const TravelAgentMenu = () => {
             <div class="card border-0 bg-secondary bg-opacity-10">
               <div class="card-body text-center py-4">
                 <img src={Hotel} alt="" width={40} />
-                <h4 class="card-title mt-3">Hotel Reservation</h4>
+                <h4 class="card-title mt-3">Hotels</h4>
                 <a href="#" class="btn btn-outline-dark btn-lg mt-3">
-                  Book Now
+                  Enter
                 </a>
               </div>
             </div>
@@ -83,9 +73,9 @@ const TravelAgentMenu = () => {
             <div class="card border-0 bg-secondary bg-opacity-10">
               <div class="card-body text-center py-4">
                 <img src={Sunset} alt="" width={40} />
-                <h4 class="card-title mt-3">Holiday Packages</h4>
+                <h4 class="card-title mt-3">Packages</h4>
                 <a href="#" class="btn btn-outline-dark btn-lg mt-3">
-                  Book Now
+                  Enter
                 </a>
               </div>
             </div>
@@ -96,4 +86,4 @@ const TravelAgentMenu = () => {
   );
 };
 
-export default TravelAgentMenu;
+export default BackofficeStaff;

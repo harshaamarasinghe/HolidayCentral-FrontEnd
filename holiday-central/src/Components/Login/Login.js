@@ -12,7 +12,7 @@ const Login = () => {
       </nav>
 
       <div class="container border p-4 mt-5 bg-light col-4 rounded">
-        <div class="text-center fw-bold fs-3">User Login</div>
+        <div class="text-center fw-bold fs-1">User Login</div>
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">
