@@ -73,8 +73,6 @@ const TravelAgentBookFlight = () => {
         </div>
       </div>
 
-      
-
       <div class="container border p-4 mt-5">
         <div className="row">
           <div class="lead text-mute text-center fw-bold">Round Trips</div>
