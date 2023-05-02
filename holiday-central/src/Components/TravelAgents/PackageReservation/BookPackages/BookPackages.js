@@ -30,10 +30,10 @@ const BookHotel = () => {
             </label>
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
+              <option>1 Week</option>
+              <option>2 Weeks</option>
+              <option>3 Weeks</option>
+              <option>4 Weeks</option>
             </select>
           </div>
         </div>
