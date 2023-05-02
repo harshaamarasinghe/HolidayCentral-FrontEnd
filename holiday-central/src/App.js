@@ -5,7 +5,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import TravelAgentMenu from "./Components/TravelAgents/TravelAgentsMenu";
-import TravelAgentBookFlight from "./Components/TravelAgents/FlightReservation/TravelAgentBookFlight/TravelAgentBookFlight";
+import TravelAgentBookFlight from "./Components/TravelAgents/FlightReservation/TravelAgentBookFlight/NewBookFlight";
+import TravelAgent from "./Components/TravelAgents/HotelReservation/FilterHotel/FilterHotel";
+import TravelAgent1 from "./Components/TravelAgents/HotelReservation/BookHotel/BookHotel";
 
 import Test from "./Components/TravelAgents/PackageReservation/PackageFilter/PackageFilter";
 import Test0 from "./Components/TravelAgents/PackageReservation/BookPackages/BookPackages";
