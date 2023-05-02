@@ -13,7 +13,11 @@ const NewBookFlight = () => {
             </label>
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
-              <option>...</option>
+              <option>Sri Lanka</option>
+              <option>Australia</option>
+              <option>Canada</option>
+              <option>Singapore</option>
+              <option>United Kindom</option>
             </select>
           </div>
 
@@ -23,7 +27,11 @@ const NewBookFlight = () => {
             </label>
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
-              <option>...</option>
+              <option>Sri Lanka</option>
+              <option>Australia</option>
+              <option>Canada</option>
+              <option>Singapore</option>
+              <option>United Kindom</option>
             </select>
           </div>
         </div>
@@ -36,7 +44,8 @@ const NewBookFlight = () => {
             </label>
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
-              <option>...</option>
+              <option>Business Class</option>
+              <option>Economy Class</option>
             </select>
           </div>
 
@@ -46,7 +55,11 @@ const NewBookFlight = () => {
             </label>
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
-              <option>...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
             </select>
           </div>
         </div>
