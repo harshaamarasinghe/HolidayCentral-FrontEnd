@@ -36,7 +36,7 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" class="btn btn-primary justify-content-center">
+          <button type="submit" class="btn btn-dark justify-content-center">
             Submit
           </button>
         </form>

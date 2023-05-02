@@ -22,7 +22,7 @@ import Admin1 from "./Components/Admin/ResetPassword/ResetPassword";
 import Admin2 from "./Components/Admin/AddNewAgent/AddNewAgent";
 
 function App() {
-  return <Admin2 />;
+  return <Login />;
 }
 
 export default App;
