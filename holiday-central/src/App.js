@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import TravelAgentMenu from "./Components/TravelAgents/TravelAgentsMenu";
 import TravelAgentBookFlight from "./Components/TravelAgents/FlightReservation/TravelAgentBookFlight/TravelAgentBookFlight";
-import Test from "./Components/TravelAgents/HotelReservation/BookHotel/BookHotel";
+import Test from "./Components/TravelAgents/HotelReservation/FilterHotel/FilterHotel";
 
 import TravelAgentSelectFlight from "./Components/TravelAgents/FlightReservation/TravelAgentSelectFlight/TravelAgentSelectFlight";
 
