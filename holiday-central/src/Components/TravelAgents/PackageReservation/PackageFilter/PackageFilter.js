@@ -28,7 +28,7 @@ const BookHotel = () => {
           <div class="col-md-2">
             <label class="form-label">Minimum Price</label>
             <input
-              type="text"
+              type="number"
               class="form-control"
               id="formGroupExampleInput"
               placeholder="Min"
@@ -38,7 +38,7 @@ const BookHotel = () => {
           <div class="col-md-2">
             <label class="form-label">Maximum Price</label>
             <input
-              type="text"
+              type="number"
               class="form-control"
               id="formGroupExampleInput"
               placeholder="Max"
