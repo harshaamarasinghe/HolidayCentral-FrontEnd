@@ -29,7 +29,7 @@ const NewBookFlight = () => {
         </div>
 
         {/*Class and number of tickets */}
-        <div class="row justify-content-start my-3">
+        <div class="row justify-content-start mt-3">
           <div class="col-md-4">
             <label for="inputState" class="form-label">
               Class
@@ -52,7 +52,7 @@ const NewBookFlight = () => {
         </div>
 
         {/*Departure and return dates */}
-        <div class="row justify-content-start my-3">
+        <div class="row justify-content-start mt-3">
           <div class="col-md-4">
             <label for="inputState" class="form-label">
               Departure
