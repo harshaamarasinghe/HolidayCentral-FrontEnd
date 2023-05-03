@@ -13,6 +13,11 @@ const Update = () => {
               Upload the .csv File Here
             </label>
             <input class="form-control" type="file" id="formFile" />
+            <div class="col-2 mt-4">
+              <button type="submit" class="btn btn-secondary">
+                Upload
+              </button>
+            </div>
           </div>
 
           <div class="row justify-content-start mt-3">

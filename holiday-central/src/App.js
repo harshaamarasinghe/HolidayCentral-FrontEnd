@@ -17,6 +17,7 @@ import TravelAgentSelectFlight from "./Components/TravelAgents/FlightReservation
 
 import Login from "./Components/Login/Login";
 import Admin from "./Components/Admin/Admin";
+
 import BackofficeStaff from "./Components/BackofficeStaff/BackofficeStaff";
 import BackofficeStaff1 from "./Components/BackofficeStaff/Flights/FlightUpdate";
 import BackofficeStaff2 from "./Components/BackofficeStaff/Hotels/HotelUpdate";
@@ -24,9 +25,10 @@ import BackofficeStaff3 from "./Components/BackofficeStaff/Packages/PackageUpdat
 
 import Admin1 from "./Components/Admin/ResetPassword/ResetPassword";
 import Admin2 from "./Components/Admin/AddNewAgent/AddNewAgent";
+import Admin3 from "./Components/Admin/ViewAllAgents/ViewAllAgents";
 
 function App() {
-  return <Test />;
+  return <Admin3 />;
 }
 
 export default App;
