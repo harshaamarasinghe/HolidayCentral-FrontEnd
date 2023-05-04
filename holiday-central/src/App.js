@@ -5,9 +5,11 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import TravelAgentMenu from "./Components/TravelAgents/TravelAgentsMenu";
-import TravelAgentBookFlight from "./Components/TravelAgents/FlightReservation/TravelAgentBookFlight/NewBookFlight";
+//import TravelAgentFinalizeFlight from "./Components/TravelAgents/FlightReservation/TravelAgentFinalizeFlight/TravelAgentFinalizeFlight";
 import TravelAgent from "./Components/TravelAgents/HotelReservation/FilterHotel/FilterHotel";
 import TravelAgent1 from "./Components/TravelAgents/HotelReservation/BookHotel/BookHotel";
+import TravelAgent4 from "./Components/TravelAgents/FlightReservation/TravelAgentBookFlight/NewBookFlight";
+import TravelAgent5 from "./Components/TravelAgents/HotelReservation/BookHotel/BookHotel";
 
 import Test from "./Components/TravelAgents/PackageReservation/PackageFilter/PackageFilter";
 import Test0 from "./Components/TravelAgents/PackageReservation/BookPackages/BookPackages";
@@ -26,9 +28,10 @@ import BackofficeStaff3 from "./Components/BackofficeStaff/Packages/PackageUpdat
 import Admin1 from "./Components/Admin/ResetPassword/ResetPassword";
 import Admin2 from "./Components/Admin/AddNewAgent/AddNewAgent";
 import Admin3 from "./Components/Admin/ViewAllAgents/ViewAllAgents";
+import Admin6 from "./Components/TravelAgents/Cart";
 
 function App() {
-  return <Admin3 />;
+  return <Admin6 />;
 }
 
 export default App;
