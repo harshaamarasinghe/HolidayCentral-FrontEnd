@@ -3,7 +3,7 @@ import React from "react";
 const Booking = () => {
   return (
     <>
-      <div class="container m-5">
+      <div class="container m-5np">
         <div class="display-4 fw-bold text-dark">
           <i class="bi bi-calendar-check me-4"></i>Reservations
         </div>
